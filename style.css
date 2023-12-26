@@ -22,6 +22,19 @@ body
     color: var(--white);
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--drak-blue);
+}
+
+
 header
 {
     align-items: center;
@@ -112,7 +125,7 @@ nav ul li a:hover
 
 .slides img 
 {
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .slide
@@ -154,11 +167,25 @@ nav ul li a:hover
 {
     margin: 70px auto;
     padding: 20px;
-    background: var(--dark-blue);
+    background: var(--drak-blue);
     border-radius: 5px;
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.popup::-webkit-scrollbar {
+    width: 12px;
+}
+
+.popup::-webkit-scrollbar-thumb {
+    background-color: green; /* Warna indikator scroll */
+}
+
+.popup::-webkit-scrollbar-track {
+    background-color: var(--dark-blue); /* Warna latar belakang indikator scroll */
 }
   
 .popup h2 {
@@ -169,10 +196,10 @@ nav ul li a:hover
 
 .popup .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 10px;
+    right: 10px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -267,9 +294,12 @@ nav ul li a:hover
 
 .pesan
 {
+    display: inline-block;
     background-color:var(--green) ;
     padding: 5%;
     border-radius: 10px;
+    color: black;
+    margin-top: 15px;
 }
 
 .pesan:hover
@@ -279,7 +309,8 @@ nav ul li a:hover
 
 .pesan img
 {
-    width: 30px;
+    width: 35px;
+    vertical-align: middle;
 }
 
 .tentang
@@ -313,7 +344,7 @@ nav ul li a:hover
 .kon {
     background-color: var(--blue);
     padding: 5%;
-    border-radius: 5px;
+    border-radius: 2px;
     box-shadow: 20px 20px black;
     text-align: center;
 }
@@ -330,7 +361,7 @@ nav ul li a:hover
     border-radius: 15px;
     text-decoration: none;
     margin-left: 2%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .wa:hover {
@@ -338,7 +369,8 @@ nav ul li a:hover
 }
 
 .wa img {
-    width: 30px;
+    width: 35px;
+    vertical-align: middle;
 }
 
  
