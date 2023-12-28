@@ -159,13 +159,13 @@ nav ul li a:hover
 .arrow.left 
 {
     top: 50%;
-    left: 19%;
+    left: 250px;
 }
 
 .arrow.right 
 {
     top: 50%;
-    right: 25%;
+    right: 335px;
 }
 
 .overlay 
