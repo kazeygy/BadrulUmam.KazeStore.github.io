@@ -158,11 +158,13 @@ nav ul li a:hover
 
 .arrow.left 
 {
+    top: 50%;
     left: 19%;
 }
 
 .arrow.right 
 {
+    top: 50%;
     right: 25%;
 }
 
