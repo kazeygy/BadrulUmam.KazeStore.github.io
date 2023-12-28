@@ -325,7 +325,7 @@ nav ul li a:hover
 {
     background-color: var(--blue);
     padding: 5%;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 20px 20px black;
 }
  
@@ -344,7 +344,7 @@ nav ul li a:hover
 .kon {
     background-color: var(--blue);
     padding: 5%;
-    border-radius: 2px;
+    border-radius: 15px;
     box-shadow: 20px 20px black;
     text-align: center;
 }
